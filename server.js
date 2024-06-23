@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-const mongoURI = 'mongodb://localhost:27017/task-manager-api'; 
+const mongoURI = 'mongodb://0.0.0.0:27017/task-manager-api'; 
 
 mongoose.connect(mongoURI)
   .then(() => console.log('MongoDB connected successfully'))

@@ -17,7 +17,8 @@ It will generate the production build for the application.
 ### `npm run start`
 
 it will start the application in production mode with mongoose database connection. 
-it will run the application on 5000 port. http://localhost:5000/ All api and the hosted in the same port
+it will run the application on 5000 port. http://localhost:5000/ 
+All api and the hosted in the same port
 
 ### Deployment
 

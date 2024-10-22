@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="my-4">Task Management Application</h1>
+      <h1 className="my-4">Task List</h1>
       <TaskForm addTask={addTask} />
       <TaskList tasks={tasks} setSelectedTask={setSelectedTask} deleteTask={deleteTask} />
       {selectedTask && <TaskDetail task={selectedTask} updateTask={updateTask} />}
